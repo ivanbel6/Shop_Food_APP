@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Food Hub</string>
+    <string name="my_restaurant">My restaurant</string>
+    <string name="mark">↓↓ Mark ↓↓</string>
+    <string name="btn_1">Button</string>
+    <string name="textview">Товар</string>
+    <string name="button">Button</string>
+    <string name="button3">Button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="Смена_товара">Изменить наименование тваров!</string>
+    <string name="notification">Notification</string>
+    <string name="закрыть_сервис">\\\\ Закрыть ////</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="rating_average">Средний рейтинг: %.2f</string>
+    <string name="price">Старая цена: %1$s руб.</string>
+    <string name="rating_message">Rating: %s</string>
+    <string name="product_price">Price: %1$s</string>
+    <string name="cart_item_total_price">Total price: %G руб</string>
+    <string name="cart_item_total_price_2">на сумму: %G руб</string>
+    <string name="login">Login</string>
+    <string name="menu_profile">fourth</string>
+    <string name="old_price"><strike>Цена: %1$s руб.</strike></string>
+    <string name="new_price">%1$s руб.</string>
+
+
+    <string name="reserve_a_table">Забронировать столик</string>
+    <string name="register">Register</string>
+
+    <string name="onboarding1">Добро пожаловать в приложение</string>
+    <string name="onboarding2">У нас постоянные акции, а также можно следитьза рейтингом блюд и оставлять отзывы на заведения</string>
+
+    <string-array name="times_of_day">
+        <item>Утро</item>
+        <item>День</item>
+        <item>Вечер</item>
+        <item>Ночь</item>
+    </string-array>
+
+    <string-array name="kitchenTypes">
+        <item>Kitchen type1</item>
+        <item>Kitchen type2</item>
+        <item>Kitchen type3</item>
+        <item>Kitchen type4</item>
+    </string-array>
+
+    <string-array name="restaurants_names">
+        <item>Restaurant1</item>
+        <item>Restaurant2</item>
+        <item>Restaurant3</item>
+        <item>Restaurant4</item>
+    </string-array>
+
+    <string-array name="restaurants_adresses">
+        <item>Adress1</item>
+        <item>Adress2</item>
+        <item>Adress3</item>
+        <item>Adress4</item>
+    </string-array>
+
+    <string-array name="restaurants_work_time">
+        <item>Time1</item>
+        <item>time2</item>
+        <item>Time3</item>
+        <item>Time4</item>
+    </string-array>
+    <string name="default_notification_channel_id">channel_id</string>
+
+</resources>

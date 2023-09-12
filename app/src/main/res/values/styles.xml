@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+<item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomTextViewStyle">
+    <item name="android:background">#FFF</item>
+<item name="android:padding">16dp</item>
+<item name="android:elevation">4dp</item>
+<item name="android:translationZ">2dp</item>
+<item name="android:clipToPadding">false</item>
+    </style>
+
+</resources>

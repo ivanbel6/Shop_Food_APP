@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Рестораны"
+        android:icon="@drawable/baseline_restaurant_24"
+        android:id="@+id/restaurants"/>
+    <item android:title="Акции"
+        android:icon="@drawable/baseline_free_breakfast_24"
+        android:id="@+id/discounts"/>
+    <item android:title="Профиль"
+        android:icon="@drawable/baseline_people_24"
+        android:id="@+id/profile"/>
+</menu>

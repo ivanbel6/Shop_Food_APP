@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+    <ImageButton
+        android:id="@+id/btn_first_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+    android:layout_gravity="start|top"
+
+    android:layout_marginEnd="16dp"
+        android:background="@color/white"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButtonProfile"
+    android:layout_width="156dp"
+    android:layout_height="156dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/circle_background"
+    android:padding="@dimen/profile_image_padding"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+<LinearLayout
+android:layout_width="380dp"
+    android:layout_height="69dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2.5"
+    android:maxWidth="380dp"
+    android:minWidth="380dp">
+
+<TextView
+
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="Name: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+
+<TextView
+android:id="@+id/textViewName_2"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="E mail: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="380dp"
+    android:layout_height="69dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2.5"
+    android:maxWidth="380dp"
+    android:minWidth="380dp">
+
+<TextView
+
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="Email: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+
+<TextView
+android:id="@+id/editTextEmail_2"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="E mail: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="380dp"
+    android:layout_height="69dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2.5"
+    android:maxWidth="380dp"
+    android:minWidth="380dp"
+    android:layout_marginBottom="125dp">
+
+<TextView
+
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="Password: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+
+<TextView
+android:id="@+id/password_2"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:gravity="center"
+    android:text="Email: "
+    android:layout_weight="1"
+    style="@style/CustomTextViewStyle"
+    android:maxWidth="120dp"
+    android:minWidth="120dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
